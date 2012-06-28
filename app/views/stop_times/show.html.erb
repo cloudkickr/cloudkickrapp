@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Trip:</b>
+  <%= @stop_time.trip_id %>
+</p>
+
+<p>
+  <b>Arrival time:</b>
+  <%= @stop_time.arrival_time %>
+</p>
+
+<p>
+  <b>Departure time:</b>
+  <%= @stop_time.departure_time %>
+</p>
+
+<p>
+  <b>Stop:</b>
+  <%= @stop_time.stop_id %>
+</p>
+
+<p>
+  <b>Stop sequence:</b>
+  <%= @stop_time.stop_sequence %>
+</p>
+
+
+<%= link_to 'Edit', edit_stop_time_path(@stop_time) %> |
+<%= link_to 'Back', stop_times_path %>

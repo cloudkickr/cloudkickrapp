@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  route_id: 9.99
+  service_id: MyString
+  trip_id: MyString
+  trip_headsign: MyString
+  trip_short_name: MyString
+  direction_id: 9.99
+  shape_id: 9.99
+
+two:
+  route_id: 9.99
+  service_id: MyString
+  trip_id: MyString
+  trip_headsign: MyString
+  trip_short_name: MyString
+  direction_id: 9.99
+  shape_id: 9.99

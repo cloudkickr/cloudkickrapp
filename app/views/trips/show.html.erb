@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Route:</b>
+  <%= @trip.route_id %>
+</p>
+
+<p>
+  <b>Service:</b>
+  <%= @trip.service_id %>
+</p>
+
+<p>
+  <b>Trip:</b>
+  <%= @trip.trip_id %>
+</p>
+
+<p>
+  <b>Trip headsign:</b>
+  <%= @trip.trip_headsign %>
+</p>
+
+<p>
+  <b>Trip short name:</b>
+  <%= @trip.trip_short_name %>
+</p>
+
+<p>
+  <b>Direction:</b>
+  <%= @trip.direction_id %>
+</p>
+
+<p>
+  <b>Shape:</b>
+  <%= @trip.shape_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_trip_path(@trip) %> |
+<%= link_to 'Back', trips_path %>

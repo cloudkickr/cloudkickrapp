@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  trip_id: MyString
+  arrival_time: 2012-05-24 20:17:19
+  departure_time: 2012-05-24 20:17:19
+  stop_id: 9.99
+  stop_sequence: 9.99
+
+two:
+  trip_id: MyString
+  arrival_time: 2012-05-24 20:17:19
+  departure_time: 2012-05-24 20:17:19
+  stop_id: 9.99
+  stop_sequence: 9.99

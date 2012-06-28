@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  agency_id: MyString
+  agency_name: MyString
+  agency_url: MyString
+  agency_timezone: MyString
+  agency_lang: MyString
+  agency_phone: MyString
+
+two:
+  agency_id: MyString
+  agency_name: MyString
+  agency_url: MyString
+  agency_timezone: MyString
+  agency_lang: MyString
+  agency_phone: MyString

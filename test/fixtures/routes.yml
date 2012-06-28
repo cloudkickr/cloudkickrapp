@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  route_id: 9.99
+  route_long_name: MyString
+  route_type: 9.99
+  route_color: MyString
+  route_text_color: MyString
+
+two:
+  route_id: 9.99
+  route_long_name: MyString
+  route_type: 9.99
+  route_color: MyString
+  route_text_color: MyString

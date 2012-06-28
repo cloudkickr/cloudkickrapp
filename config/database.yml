@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf8
+  database: comfort_model_dev
+  host: localhost
+  pool: 5
+  username: cloudaccess
+  password: keepitonthelow
+  
+development:
+  database: comfort_model_dev
+  <<: *defaults
+  
+test:
+  database: comfort_model_test
+  <<: *defaults
+  
+production:
+  database: comfort_model_pro
+  <<: *defaults
